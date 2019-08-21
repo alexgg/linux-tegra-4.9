@@ -83,13 +83,13 @@
 	mttcan0-ivc {
 		compatible = "bosch,mttcan-ivc";
 		mboxes = <&aon 3>;
-		status = "disabled";
+		status = "okay";
 	};
 
 	mttcan1-ivc {
 		compatible = "bosch,mttcan-ivc";
 		mboxes = <&aon 4>;
-		status = "disabled";
+		status = "okay";
 	};
 
 	aon_shub {
