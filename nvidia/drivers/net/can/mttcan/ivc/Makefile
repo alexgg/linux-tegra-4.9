@@ -20,4 +20,4 @@ obj-$(CONFIG_MTTCAN_IVC) := mttcan_ivc.o
 mttcan_ivc-y = m_ttcan_linux_ivc.o ../hal/m_ttcan.o
 mttcan_ivc-y += ../hal/m_ttcan_list.o ../hal/m_ttcan_ram.o
 
-ccflags-y += -I$(src)/../include
+ccflags-y += -I$(srctree.nvidia)/drivers/net/can/mttcan/include
