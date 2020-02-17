@@ -44,3 +44,4 @@ obj-$(CONFIG_KS7010)		+= ks7010/
 obj-$(CONFIG_GREYBUS)		+= greybus/
 obj-$(CONFIG_BCM2708_VCHIQ)	+= vc04_services/
 obj-$(CONFIG_STEPPER)		+= stepper/
+obj-$(CONFIG_STAGING_GASKET_FRAMEWORK) += gasket/
